@@ -80,20 +80,6 @@ body.dark-theme {
 --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
-/*========== Full page cover ==========*/
-.bg {
-  /* The image used */
-  background-image: url("assets/img/restaurant.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 /*========== Button Dark/Light ==========*/
 .nav__btns {
