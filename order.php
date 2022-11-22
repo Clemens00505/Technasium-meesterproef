@@ -27,10 +27,6 @@
                             <a href="../#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__incon"></i> Home
                             </a>
-                            <li class="nav__item">
-                                <a href="../#about" class="nav__link">
-                                    <i class="uil uil-user nav__incon"></i> About
-                                </a>
                                     <li class="nav__item">
                                         <a href="../#services" class="nav__link">
                                             <i class="uil uil-briefcase-alt nav__incon"></i> Services
@@ -63,9 +59,20 @@
                     <input placeholder="Tafelnummer">
                     <input placeholder="wachtwoord">
                     <h1>Thema week is: .....</h1>
-                    <div class="allergien">
-                        <p>noten</p> 
-                        <INPUT TYPE="checkbox" name="noten checkbox">
+                    <div class="allergiën">
+                    <h2>Vul hieronder uw Allergiën in</h2>
+                        <p>Noten</p> 
+                        <INPUT TYPE="checkbox" name="Noten checkbox">
+                        <p>Soja</p> 
+                        <INPUT TYPE="checkbox" name="Soja checkbox">
+                        <p>Eieren</p> 
+                        <INPUT TYPE="checkbox" name="Eieren checkbox">
+                        <p>Pinda</p> 
+                        <INPUT TYPE="checkbox" name="Pinda checkbox">
+                        <p>Lactose</p> 
+                        <INPUT TYPE="checkbox" name="Lactose checkbox">
+                        <p>Tarwe</p> 
+                        <INPUT TYPE="checkbox" name="Tarwe checkbox">
 
 
 
