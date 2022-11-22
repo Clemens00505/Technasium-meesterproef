@@ -27,18 +27,14 @@
                             <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__incon"></i> Home
                             </a>
-                            <li class="nav__item">
-                                <a href="#about" class="nav__link">
-                                    <i class="uil uil-user nav__incon"></i> About
-                                </a>
-                                    <li class="nav__item">
-                                        <a href="#services" class="nav__link">
-                                            <i class="uil uil-briefcase-alt nav__incon"></i> Services
-                                        </a>
-                                            <li class="nav__item">
-                                                <a href="#contact" class="nav__link">
-                                                    <i class="uil uil-message nav__incon"></i> Contact
-                                                </a>
+                                <li class="nav__item">
+                                    <a href="#services" class="nav__link">
+                                        <i class="uil uil-briefcase-alt nav__incon"></i> Services
+                                    </a>
+                                        <li class="nav__item">
+                                            <a href="#contact" class="nav__link">
+                                                <i class="uil uil-message nav__incon"></i> Contact
+                                            </a>
                         </li>
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
