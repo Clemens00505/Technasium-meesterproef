@@ -93,7 +93,7 @@
                             <h1 class="home__title">Hi, We are NAME</h1>
                             <h3 class="home__subtitle">Restaurant</h3>
                             <p class="home__description">Located in Breda</p>
-                            <a href="order.html" class="button button--flex">
+                            <a href="order.php" class="button button--flex">
                                Order <i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
@@ -108,43 +108,7 @@
                 </div>
             </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">About us</h2>
-                <span class="section__subtitle">NAME</span>
-
-                <div class="about__container container grid">
-                    <img src="assets/img/food.jpg" alt="about" class="about__img">
-
-                    <div class="div about__data">
-                        <p class="about description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">1.5</span>
-                                <span class="about__ifno-name">Years <br> experience</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">4</span>
-                                <span class="about__ifno-name">Employes <br> Active </span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">26</span>
-                                <span class="about__ifno-name">Meals <br> Serving</span>
-                            </div>
-                        </div>
-
-                      <div class="about__buttons">
-                          <a download="" href="Menu.docx" class="button button--flex">
-                            Download Menu<i class="uil uil-download-alt button__icon"></i>
-                          </a>
-                      </div>  
-                    </div>
-                </div>
-            </section>
+           
 
  
     <!--==================== SERVICES ====================-->
