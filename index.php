@@ -61,14 +61,14 @@
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
-                            <a href="https://www.snapchat.com/add/clay_clay076?share_id=ODVGNkM2&locale=nl_NL" target="_blank" class="home__social-icon">
-                                <i class="uil uil-snapchat-square"></i>
+                            <a href="-" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram-alt"></i>
                             </a>                            
-                            <a href="https://discord.com/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-discord"></i>
+                            <a href="-" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook"></i>
                             </a>                            
-                            <a href="https://github.com/Clemens00505" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
+                            <a href="-" target="_blank" class="home__social-icon">
+                                <i class="uil uil-favorite"></i>
                             </a>
                         </div>
                         <div class="home__img">
