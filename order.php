@@ -27,14 +27,6 @@
                             <a href="../#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__incon"></i> Home
                             </a>
-                                    <li class="nav__item">
-                                        <a href="../#services" class="nav__link">
-                                            <i class="uil uil-briefcase-alt nav__incon"></i> Services
-                                        </a>
-                                            <li class="nav__item">
-                                                <a href="../#contact" class="nav__link">
-                                                    <i class="uil uil-message nav__incon"></i> Contact
-                                                </a>
                         </li>
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
@@ -50,7 +42,7 @@
             </nav>
         </header>
 
-         <!--==================== ABOUT ====================-->
+         <!--==================== ORDER ====================-->
          <section class="about section" id="about">
                 <h2 class="section__title">Order</h2>
                 <span class="section__subtitle">NAME</span>
@@ -61,19 +53,53 @@
                     <h1>Thema week is: .....</h1>
                     <div class="allergiën">
                     <h2>Vul hieronder uw Allergiën in</h2>
-                        <p>Noten</p> 
-                        <INPUT TYPE="checkbox" name="Noten checkbox">
-                        <p>Soja</p> 
-                        <INPUT TYPE="checkbox" name="Soja checkbox">
-                        <p>Eieren</p> 
-                        <INPUT TYPE="checkbox" name="Eieren checkbox">
-                        <p>Pinda</p> 
-                        <INPUT TYPE="checkbox" name="Pinda checkbox">
-                        <p>Lactose</p> 
-                        <INPUT TYPE="checkbox" name="Lactose checkbox">
-                        <p>Tarwe</p> 
-                        <INPUT TYPE="checkbox" name="Tarwe checkbox">
+                        <div class="dropdown">
+                            <button class="dropbtn">Klik hier voor allergiën</button>
+                            <div class="dropdown-content">
+                                Pinda 
+                                <INPUT TYPE="checkbox" name="Pinda checkbox">
+                                <hr class="dropown-hr">
+                                Noten 
+                                <INPUT TYPE="checkbox" name="Noten checkbox">
+                                <hr class="dropown-hr">
+                                Selderij
+                                <INPUT TYPE="checkbox" name="Selderij checkbox">
+                                <hr class="dropown-hr">
+                                Gluten 
+                                <INPUT TYPE="checkbox" name="Gluten checkbox">
+                                <hr class="dropown-hr">
+                                Lactose 
+                                <INPUT TYPE="checkbox" name="Lactose checkbox">
+                                <hr class="dropown-hr">
+                                Suiker 
+                                <INPUT TYPE="checkbox" name="Suiker checkbox">
+                                <hr class="dropown-hr">
+                                Schaaldieren 
+                                <INPUT TYPE="checkbox" name="Schaaldieren checkbox">
+                                <hr class="dropown-hr">
+                                Sesam 
+                                <INPUT TYPE="checkbox" name="Sesam checkbox">
+                                <hr class="dropown-hr">
+                                Sulfiet 
+                                <INPUT TYPE="checkbox" name="Sulfiet checkbox">
+                                <hr class="dropown-hr">
+                                Ei 
+                                <INPUT TYPE="checkbox" name="Ei checkbox">
+                                <hr class="dropown-hr">
+                                Soja 
+                                <INPUT TYPE="checkbox" name="Soja checkbox">
+                                <hr class="dropown-hr">
+                                Koemelk 
+                                <INPUT TYPE="checkbox" name="Koemelk checkbox">
+                                <hr class="dropown-hr">
+                                Vis 
+                                <INPUT TYPE="checkbox" name="Vis checkbox">
+                                <hr class="dropown-hr">
+                            </div>
+                        </div>
 
+                        <h2>Vul hieronder uw Allergiën in</h2>
+                            <input placeholder="kCall"></input>
 
 
 
