@@ -130,6 +130,7 @@
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
+                    <p>Heb jij altijd al vernieuwend willen zijn, en heb jij altijd al gewild dat jouw klanten iets ervaren wat hun zal bijblijven? Dan is ons concept de oplossing!</p>
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
                         <p>Filters</p>
@@ -143,6 +144,11 @@
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
                         <p>Always a suprise</p>
+                    </li> 
+
+                    <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Fixed ammount of calories</p>
                     </li>
 
                     <li class="services__modal-service">
@@ -158,7 +164,7 @@
     <div class="services__content">
         <div>
             <i class="uil uil-arrow services__icon"></i>
-            <h3 class="services__title">Demo <br> Text</h3>
+            <h3 class="services__title">Samenwerkingen</h3>
         </div>
         <span class="button button--flex button--small button--link services__button">
             View more
@@ -167,28 +173,28 @@
 
         <div class="services__modal">
             <div class="services__modal-content">
-                <h4 class="services__modal-title">Demo <br> Text</h4>
+                <h4 class="services__modal-title">Samenwerkingen</h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Toekomstig bedrijf</p>
                     </li>
 
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Toekomstig bedrijf</p>
                     </li>
 
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Toekomstig bedrijf</p>
                     </li>
 
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Toekomstig bedrijf</p>
                     </li>
                 </ul>
             </div>
@@ -199,7 +205,7 @@
     <div class="services__content">
         <div>
             <i class="uil uil-pen services__icon"></i>
-            <h3 class="services__title">Demo <br> Text</h3>
+            <h3 class="services__title">Soliciteren</h3>
         </div>
         <span class="button button--flex button--small button--link services__button">
             View more
@@ -208,28 +214,28 @@
 
         <div class="services__modal">
             <div class="services__modal-content">
-                <h4 class="services__modal-title">Demo <br> Text</h4>
+                <h4 class="services__modal-title">Heb jij deze eigenschappen? <br>Dan ben jij misschien wel degene die wij zoeken! Stuur ons gauw een berichtje!</h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Creatief</p>
                     </li>
 
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Leergierig</p>
                     </li>
 
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Sociaal</p>
                     </li>
 
                     <li class="services__modal-service">
                         <i class="uil uil-check-circle services__modal-icon"></i>
-                        <p>Demo Text</p>
+                        <p>Opdrachtgever gericht</p>
                     </li>
                 </ul>
             </div>
@@ -306,7 +312,7 @@
                  </div>
                  <ul class="footer__links">
                     <li>
-                        <a href="#about" class="footer__link">About Us</a>
+                        <a href="#home" class="footer__link">Home</a>
                     </li>
 
                     <li>
