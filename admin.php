@@ -27,14 +27,6 @@
                             <a href="../#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__incon"></i> Home
                             </a>
-                                    <li class="nav__item">
-                                        <a href="../#services" class="nav__link">
-                                            <i class="uil uil-briefcase-alt nav__incon"></i> Services
-                                        </a>
-                                            <li class="nav__item">
-                                                <a href="../#contact" class="nav__link">
-                                                    <i class="uil uil-message nav__incon"></i> Contact
-                                                </a>
                         </li>
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
@@ -61,7 +53,7 @@
                  </div>
                  <ul class="footer__links">
                     <li>
-                        <a href="#about" class="footer__link">About Us</a>
+                        <a href="#home" class="footer__link">Home</a>
                     </li>
 
                     <li>
