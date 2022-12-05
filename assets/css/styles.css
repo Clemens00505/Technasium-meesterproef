@@ -87,7 +87,6 @@ body.dark-theme {
 .nav__btns {
   display: flex;
   align-items: center;
-
 }
 
 .change-theme {
@@ -380,61 +379,6 @@ img {
   align-items: center;
 }
 
-/*==================== ABOUT ====================*/
-.about__img{
-  width: 200px;
-  border-radius: .5rem;
-  justify-self: center;
-  align-items: center;
-}
-
-.about__description{
-  text-align: center;
-  margin-bottom: var(--mb-2-5);
-}
-
-.about__info{
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
-}
-
-.about__info-title{
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-semi-bold);
-  color: var(--title-color);
-}
-
-.about__info-name{
-  font-size: var(--smallerr-font-size);
-}
-
-.about__info-title,
-.about__info-name{
-  display: block;
-  text-align: center;
-}
-
-.about__buttons{
-  display: flex;
-  justify-content: center;
-}
-
-.button--small{
-  padding: .75rem 1rem;
-}
-
-.button--link{
-  padding: 0;
-  background-color: transparent;
-  color: var(--first-color);
-}
-
-.button--link:hover{
-  background-color: transparent;
-  color: var(--first-color-alt);
-}
-
 /*==================== SERVICES ====================*/
 .services__container {
   gap: 1.5rem;
@@ -659,6 +603,54 @@ img {
 .show-scroll {
   bottom: 5rem;
 }
+
+
+/*========= Dropdown Order ===========*/
+.dropbtn {
+  background-color: var(--first-color);
+  color: var(--title-color);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-1);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--body-color);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropown-hr {
+  background-color: var(--text-color);
+  margin: 0px 5px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: var(--first-color-alt);}
+
+
+
 
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar {
