@@ -256,7 +256,7 @@
 
                             <div>
                                 <h3 class="contact__title">Send a email to us!</h3>
-                                <span class="contact__subtitle">NAME@gmail.com</span>
+                                <span class="contact__subtitle">secretariaat@newmancollege.nl</span>
                             </div>
 
                             <div class="contact__information">
@@ -264,7 +264,7 @@
 
                             <div>
                                 <h3 class="contact__title">Call us</h3>
-                                <span class="contact__subtitle">+31 06-123456</span>
+                                <span class="contact__subtitle">076-5810450</span>
                             </div>
 
                         </div>
@@ -325,7 +325,7 @@
                  </ul>
 
  
-                 <p class="footer__copy">&#169; Clemens Stouten demo website. All right reserved</p>
+                 <p class="footer__copy">&#169; O&O Meesterproef demo website. All right reserved</p>
              </div>
          </div>
         </footer>
