@@ -50,9 +50,16 @@
                 <div class="about__container container grid">
                     <input placeholder="Tafelnummer">
                     <input placeholder="wachtwoord">
-                    <h1>Thema week is: .....</h1>
+                    <h1>Thema week is: Duitsland</h1>
+                    <br>
+                        <img src="assets/img/Flag_of_Germany.png" alt="Vlag Duitsland">
+                        <br>
+                        <h4>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </h4>
                     <div class="allergiën">
-                    <h2>Vul hieronder uw Allergiën in</h2>
+                    <h1>Vul hier uw voorwaarden in:</h1>
+                    <h2>Allergiën</h2>
                         <div class="dropdown">
                             <button class="dropbtn">Klik hier voor allergiën</button>
                             <div class="dropdown-content">
@@ -98,7 +105,7 @@
                             </div>
                         </div>
 
-                        <h2>Vul hieronder uw Allergiën in</h2>
+                        <h2>Max. aantal kCall</h2>
                             <input placeholder="kCall"></input>
 
 
