@@ -604,20 +604,34 @@ img {
   bottom: 5rem;
 }
 
-.allergiën {
-  margin-top: -250px;
+.allergiën-right {
+  float: right;
+}
+
+.thema-left {
+
 }
 
 /*========= Dropdown Order ===========*/
+.dropown-hr {
+  background-color: var(--text-color);
+  margin: 0px 5px;
+}
+
 .dropbtn {
   background-color: var(--first-color);
   color: var(--title-color);
   padding: 16px;
   font-size: 16px;
   border: none;
+  cursor: pointer;
   border-radius: 10px;
   margin-top: var(--mb-1);
   margin-bottom: var(--mb-1);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
 }
 
 .dropdown {
@@ -630,6 +644,7 @@ img {
   position: absolute;
   background-color: var(--body-color);
   min-width: 160px;
+  overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -641,18 +656,9 @@ img {
   display: block;
 }
 
-.dropown-hr {
-  background-color: var(--text-color);
-  margin: 0px 5px;
-}
+.dropdown a:hover {background-color: #ddd;}
 
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: var(--first-color-alt);}
-
-
+.show {display: block;}
 
 
 /*========== SCROLL BAR ==========*/
