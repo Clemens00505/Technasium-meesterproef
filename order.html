@@ -19,7 +19,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">NAME</a>
+                <a href="#" class="nav__logo">Variety</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -48,8 +48,8 @@
                 <span class="section__subtitle">NAME</span>
 
                 <div class="about__container container grid">
-                    <input placeholder="Tafelnummer">
-                    <input placeholder="wachtwoord">
+                    <input class="input_order" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="Tafelnummer">
+                    <input class="input_order" maxlength="7" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="wachtwoord">
                 <div class="thema-left">
                     <h1>Thema week is: Duitsland</h1>
                     <br>
@@ -108,7 +108,7 @@
                         </div>
 
                         <h2>Max. aantal kCall</h2>
-                            <input placeholder="kCall"></input>
+                            <input class="input_order" maxlength="4" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="kCall"></input>
 
 
 
