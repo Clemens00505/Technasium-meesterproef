@@ -608,11 +608,22 @@ img {
   float: right;
 }
 
+/*=========
 .thema-left {
 
 }
+===========*/
 
-/*========= Dropdown Order ===========*/
+/*========= Order page ===========*/
+
+.input_order{
+  padding:10px;
+  margin:10px 0;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(255, 255, 255, 0.2);
+  border-radius:10px;
+}
+
 .dropown-hr {
   background-color: var(--text-color);
   margin: 0px 5px;
