@@ -49,7 +49,7 @@
 
                 <div class="about__container container grid">
                     <input class="input_order" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="Tafelnummer">
-                    <input class="input_order" maxlength="7" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="wachtwoord">
+                    <input class="input_order" type="email" id="email" pattern=".+@gmail\.com" size="30" required placeholder="E-mail">
                 <div class="thema-left">
                     <h1>Thema week is: Duitsland</h1>
                     <br>
@@ -109,8 +109,8 @@
 
                         <h2>Max. aantal kCall</h2>
                             <input class="input_order" maxlength="4" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="kCall"></input>
-
-
+                            <br>
+                            <button class="dropbtn">Order</button>
 
                     </div>
 
